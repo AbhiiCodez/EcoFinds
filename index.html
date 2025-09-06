@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 2.66663C8.63636 2.66663 2.66669 8.63632 2.66669 16C2.66669 23.3636 8.63636 29.3333 16 29.3333C23.3637 29.3333 29.3334 23.3636 29.3334 16C29.3334 8.63632 23.3637 2.66663 16 2.66663Z' fill='%2316a34a' fill-opacity='0.1'/%3E%3Cpath d='M16 8.00003V10.6667M16 21.3334V24M20.9431 11.0569L18.9904 13.0096M13.0096 18.9904L11.0569 20.9431M24 16H21.3333M10.6667 16H8M20.9431 20.9431L18.9904 18.9904M13.0096 13.0096L11.0569 11.0569' stroke='%2316a34a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17.3333 16C17.3333 18.6666 16 20 16 20C16 20 14.6667 18.6666 14.6667 16C14.6667 14.4728 15.2286 13.0053 16.2288 11.9289C16.9404 11.1611 17.3333 10.3333 17.3333 9.33331C17.3333 8.59693 16.7364 8 16 8C15.2636 8 14.6667 8.59693 14.6667 9.33331' stroke='%2316a34a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" type="image/svg+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoFinds - Sustainable Second-Hand Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#16a34a', // Green-600
+              secondary: '#475569', // Slate-600
+              accent: '#f97316', // Orange-500
+              light: '#f1f5f9', // Slate-100
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
